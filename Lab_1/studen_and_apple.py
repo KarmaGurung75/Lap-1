@@ -4,7 +4,7 @@
 '''
 stu=int(input("Enter the number of the student:"))
 app=int(input("Enter the number of the apple:"))
-div=(app/stu)
+div=(app//stu)
 remain=(app%stu)
 print("Each studemt got ",div)
 print("The remainning apple ",remain)
